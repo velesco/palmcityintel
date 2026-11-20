@@ -1,1 +1,5 @@
-<!doctype html><meta charset="utf-8"><title>Palm City Intel – connected</title><body style="font-family:sans-serif;background:#1a0b2e;color:#fff;padding:40px"><h2>Login OK</h2><p>Copy the full address from the address bar and send it back.</p><p id="u" style="word-break:break-all;font-size:12px;opacity:.8"></p><script>document.getElementById('u').textContent=location.href</script></body>
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Palm City Intel – connected</title>
+<body style="font-family:sans-serif;background:#1a0b2e;color:#fff;text-align:center;padding:48px 16px">
+<h2 id="h">✅ TikTok account connected</h2><p id="m">Palm City Intel can now upload our scheduled clips to this account.</p>
+<p style="opacity:.6;font-size:11px;word-break:break-all" id="u"></p>
+<script>var q=new URLSearchParams(location.search);if(q.get('error')){document.getElementById('h').textContent='Connection cancelled';document.getElementById('m').textContent=q.get('error')}document.getElementById('u').textContent=location.href</script></body>

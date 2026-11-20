@@ -1,1 +1,9 @@
-<!doctype html><meta charset="utf-8"><title>Palm City Intel</title><body style="font-family:sans-serif;background:#1a0b2e;color:#fff;text-align:center;padding:60px"><h1>Palm City Intel</h1><p>GTA 6 tips, secrets &amp; easter eggs.</p></body>
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Palm City Intel</title>
+<body style="font-family:sans-serif;background:#1a0b2e;color:#fff;text-align:center;padding:48px 16px">
+<img src="icon.png" width="120" style="border-radius:50%"><h1>Palm City Intel</h1><p>Private publishing tool for our own GTA 6 tips clips.</p>
+<p><a id="c" style="display:inline-block;background:#fe2c55;color:#fff;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:bold" href="#">Connect TikTok account</a></p>
+<p style="opacity:.7;font-size:13px">After connecting, our scheduler uploads our clips to the connected account (Content Posting API).<br><a style="color:#9cf" href="terms/">Terms</a> · <a style="color:#9cf" href="privacy/">Privacy</a></p>
+<script>
+var s=Math.random().toString(36).slice(2);
+document.getElementById('c').href="https://www.tiktok.com/v2/auth/authorize/?client_key=sbawuich5iaeaaezom&scope=user.info.basic%2Cvideo.upload%2Cvideo.publish&response_type=code&redirect_uri="+encodeURIComponent("https://velesco.github.io/palmcityintel/callback/")+"&state="+s;
+</script></body>
